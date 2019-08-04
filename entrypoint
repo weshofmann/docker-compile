@@ -1,0 +1,7 @@
+#!/bin/sh
+
+export PREFIX=/build
+
+cd /src
+/bin/bash -c "export MAKEFLAGS='PREFIX=/build'; $@"
+
